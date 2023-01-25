@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>770</x><y>340</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Arguments&gt;&gt;
+Package::arg_handler
+--
++query: QueryType,
++file_path: String,
++method_path: String
+--
++new(Vec&lt;String&gt;): Arguments
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>310</y><w>150</w><h>150</h></coordinates><panel_attributes>&lt;&lt;enum QueryType&gt;&gt;
+Package::arg_handler
+--
+IpcPipe,
+IpcQueue,
+IpcShm,
+Help,
+FilePathMissing,
+MethodMissing, 
+Other</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>400</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element></diagram>

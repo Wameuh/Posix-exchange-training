@@ -1,0 +1,20 @@
+[package]
+name = "ipc_copy_file"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.137"
+thiserror = "1.0.37"
+itertools = "0.9"
+sysinfo = "0.26.8"
+nix = "0.26.1"
+close-file = "0.1.0"
+posixmq = "1.0.0"
+matches = "0.1.9"
+chrono = "0.4.23"
+
+[dev-dependencies]
+rand = "0.8.5" 
